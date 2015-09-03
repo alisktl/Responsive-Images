@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+
+    /*"font-size: 0" removes blank space between two images*/
+    font-size: 0;
+}
+img {
+    max-width: 426px;
+    width: 50%;
+}

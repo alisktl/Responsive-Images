@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+
+    /*"font-size: 0" removes blank space between two images*/
+    font-size: 0;
+}
+img {
+	margin-right: 10px;
+    max-width: 426px;
+    width: calc((100% - 10px) / 3);
+}
+img:last-of-type {
+margin-right: 0;
+}
