@@ -1,0 +1,19 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+div {
+    background-image: url(../images/koala.jpg);
+    background-size: cover;
+    height: 50vw;
+    transition: background-image 2s;
+    width: 50vw;
+}
+@media screen and (max-width: 500px) {
+    div {
+        background-image: url(../images/koala_crop.jpg);
+    }
+}
